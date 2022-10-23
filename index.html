@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<script src="https://kit.fontawesome.com/809be52ab3.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Kodchasan&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+	<title>WatchesLanding</title>
+</head>
+
+<body>
+	<div class="clock-bg">
+		<div class="clock">
+			<div class="hour-arrow"></div>
+			<div class="minute-arrow"></div>
+			<div class="second-arrow"></div>
+			<div class="round"></div>
+		</div>
+	</div>
+
+	<div class="header" id="header">
+		<div class="nav">
+			<a href="#"><img src="images/logo.png" class="logo"></a>
+			<div class="menu">
+				<ul>
+					<li><a href="#characteristics">Характеристики</a></li>
+					<li>
+						<a href="#statistic">Статистика</a>
+						<ul class="submenu">
+							<li><a href="#">Link 1</a></li>
+							<li><a href="#">Link 2</a></li>
+							<li><a href="#">Link 3</a></li>
+							<li><a href="#">Link 4</a></li>
+							<li><a href="#">Link 5</a></li>
+						</ul>
+					</li>
+					<li><a href="#feedbacks">Отзывы</a></li>
+					<li><a href="#order">Заказать</a></li>
+				</ul>
+			</div>
+			<div class="tel">
+				<a href="#">+7 923 234 89 63</a>
+				<a href="#popup" class="userButton">
+					<img src="images/account_icon.png">
+				</a>
+				<img src="images/burger.png" class="burger">
+				<ul class="burger-menu">
+					<li><span class="burger-header">Меню</span></li>
+					<li><a href="#characteristics">Характеристики</a></li>
+					<li><a href="#statistic">Статистика</a></li>
+					<li><a href="#feedbacks">Отзывы</a></li>
+					<li><a href="#order">Заказать</a></li>
+					<li><a href="#">+7 923 234 89 63</a></li>
+					<li><a href="#">Авторизоваться</a></li>
+					<li><a class="close-burger-menu">Закрыть меню</a></li>	
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="content">
+
+		<div class="banner">
+			<div class="offer">
+				<h1>Часы - компас времени</h1>
+				<p class="offer-label">Для тех, кому не безразлично время</p>
+				<div class="hidden-slider">
+					<img src="images/slider_arrow.png" class="left-slider-arrow" onclick="hiddenLeftSlider()" width="50" height="60">
+					<img src="images/watches.png" class="hidden-watches">
+					<img src="images/slider_arrow.png" class="right-slider-arrow" onclick="hiddenRightSlider()" width="50" height="60">
+				</div>
+				<div class="timer">
+					<span class="days"></span>
+					<span class="hours"></span>
+					<span class="minutes"></span>
+					<span class="seconds"></span>
+					<div class="timer-elements">
+						<p>Дней</p>
+						<p>Часов</p>
+						<p>Минут</p>
+						<p>Секунд</p>
+					</div>
+				</div>
+				<p class="unique-share">Скидка 15% до окончания таймера. <br>
+					Успейте купить!</p>
+				<a href="#order" class="first_order">Заказать</a>
+			</div>
+			<div class="product">
+				<img src="images/slider_arrow.png" class="left-slider-arrow" onclick="leftSlider()" width="50" height="60">
+				<img src="images/watches.png" class="main-watches">
+				<img src="images/slider_arrow.png" class="right-slider-arrow" id="right-slider-arrow" onclick="rightSlider()" width="50" height="60">
+			</div>
+			<a class="get-down-button" id="get-down-button" href="#footer">
+				<img src="images/pointer.png">
+			</a>
+		</div>
+
+
+		<div class="line"></div>
+
+		<a name="characteristics"></a>
+		<div class="main-content">
+
+
+
+			<h2 class="characteristics-header">Характеристики</h2>
+			<div class="characteristics" id="characteristics">
+				<div class="characteristic">
+					<div class="image-holder">
+						<img class="characteristic-image-1" src="images/characteristic_1.png">
+					</div>
+					<h3>Стекло</h3>
+					<p>Прочное <br>
+						минеральное стекло</p>
+				</div>
+				<div class="characteristic">
+					<div class="image-holder">
+						<img class="characteristic-image-2" src="images/characteristic_2.png">
+					</div>
+					<h3>Материал</h3>
+					<p>Нержавеющая <br>
+						сталь</p>
+				</div>
+				<div class="characteristic">
+					<div class="image-holder">
+						<img class="characteristic-image-3" src="images/characteristic_3.png">
+					</div>
+					<h3>Ремешок</h3>
+					<p>Удобный <br>
+						кожаный ремешок</p>
+				</div>
+			</div>
+			<a href="#order" class="secondary-order-button">Заказать</a>
+
+			<div class="line"></div>
+
+
+			<a name="statistic"></a>
+			<div class="statistic" id="statistic">
+				<h2 class="statistic-header">Статистика</h2>
+				<div class="statistic-wrap">
+					<div class="left-statistic-wrap">
+						<div class="left-infographic">
+							<p>Мировой бренд</p>
+							<div class="infographic-line"></div>
+							<img src="images/infographic_1.png">
+						</div>
+						<div class="left-statistic">
+							<p class="price kolvo">25650</p>
+							<div class="mini-line"></div>
+							<p class="description">
+								Людей уже<br>
+								пользуются этими <br>
+								часами</p>
+						</div>
+					</div>
+					<div class="statistic-image">
+						<img src="images/watches_2.png">
+					</div>
+					<div class="right-statistic-wrap">
+						<div class="right-statistic">
+							<p class="price">4,6</p>
+							<div class="mini-line"></div>
+							<p class="description">
+								Средняя оценка <br>
+								по всем маркетам <br>
+								мира</p>
+						</div>
+						<div class="right-infographic">
+							<p>Высокие рейтинги</p>
+							<div class="infographic-line"></div>
+							<img src="images/infographic_2.png">
+						</div>
+					</div>
+				</div>
+				<a href="#order" class="secondary-order-button statistic-secondary-order-button">Заказать</a>
+			</div>
+
+
+			<div class="line"></div>
+
+			<a name="feedbacks"></a>
+			<div class="feedbacks" id="feedbacks">
+				<h2 class="feedbacks-header">Отзывы</h2>
+				<div class="feedbacks-wrap">
+					<div class="upper-feedbacks">
+						<div class="feedback-wrap">
+							<div class="person-icon-holder">
+								<img src="images/user_image.png">
+							</div>
+							<div class="feedback-rightside">
+								<div class="feedback-upper">
+									<div class="feedbacker-name">Матвей Грачев</div>
+								</div>
+								<div class="feedback-downer">
+									<div class="feedback-date">08.12.2021</div>
+									<img src="images/like.png" class="setlike">
+									<img src="images/filled_like.png" class="liked">
+									<div class="likes">25</div>
+								</div>
+								<div class="feedback">
+									<span class="feedback-text">
+										Брал в подарок другу, очень доволен подарком. Выглядят просто невероятно!
+									</span>
+									<a class="read-more">Читать далее...</a>
+									<a class="roll-up">Свернуть...</a>
+								</div>
+							</div>
+						</div>
+						<div class="feedback-wrap">
+							<div class="person-icon-holder">
+								<img src="images/user_image.png">
+							</div>
+							<div class="feedback-rightside">
+								<div class="feedback-upper">
+									<div class="feedbacker-name">Алексей Петров</div>
+								</div>
+								<div class="feedback-downer">
+									<div class="feedback-date">04.12.2021</div>
+									<img src="images/like.png" class="setlike">
+									<img src="images/filled_like.png" class="liked">
+									<div class="likes">25</div>
+								</div>
+								<div class="feedback">
+									<span class="feedback-text">
+										Великолепное качество, классный дизайн, очень понравились!
+									</span>
+									<a class="read-more">Читать далее...</a>
+									<a class="roll-up">Свернуть...</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="downer-feedbacks">
+						<div class="feedback-wrap">
+							<div class="person-icon-holder">
+								<img src="images/user_image.png">
+							</div>
+							<div class="feedback-rightside">
+								<div class="feedback-upper">
+									<div class="feedbacker-name">Надежда Ерофеева</div>
+								</div>
+								<div class="feedback-downer">
+									<div class="feedback-date">30.11.2021</div>
+									<img src="images/like.png" class="setlike">
+									<img src="images/filled_like.png" class="liked">
+									<div class="likes">25</div>
+								</div>
+								<div class="feedback">
+									<span class="feedback-text">
+										Покупал в личное использование. Не подвели ни разу, качество на высоте.
+									</span>
+									<a class="read-more">Читать далее...</a>
+									<a class="roll-up">Свернуть...</a>
+								</div>
+							</div>
+						</div>
+						<div class="feedback-wrap">
+							<div class="person-icon-holder">
+								<img src="images/user_image.png">
+							</div>
+							<div class="feedback-rightside">
+								<div class="feedback-upper">
+									<div class="feedbacker-name">София Соловьева</div>
+								</div>
+								<div class="feedback-downer">
+									<div class="feedback-date">06.11.2021</div>
+									<img src="images/like.png" class="setlike">
+									<img src="images/filled_like.png" class="liked">
+									<div class="likes">25</div>
+								</div>
+								<div class="feedback">
+									<span class="feedback-text">
+										Часы оправдали все ожидания, удобно сидят на руке и отлично смотрятся.
+									</span>
+									<a class="read-more">Читать далее...</a>
+									<a class="roll-up">Свернуть...</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a href="#feedbacks" class="secondary-order-button feedbacks-secondary-order-button">Посмотреть все отзывы</a>
+			</div>
+
+
+			<div class="line"></div>
+
+			<form name="myform">
+				<div class="order" id="order">
+					<h2 class="order-header">Заказать</h2>
+					<div class="order-inputs">
+						<div class="order-inputs-leftside">
+							<input type="text" name="name" placeholder="Ваше имя" onkeyup="checkName(this.value)" class="name-input">
+							<span id="error_input_name">Имя не может быть больше 12-ти символов</span>
+							<input type="input" placeholder="Ваш телефон" onkeyup="checkTel(this.value)" class="tel-input">
+							<span id="error_input_tel">Телефон введен неверно</span>
+							<input type="input" placeholder="Ваш Email" onkeyup="checkEmail(this.value)"
+								id="input_email"  class="email-input">
+							<span id="error_input_email">Почта должна содержать знак '@'</span>
+						</div>
+						<div class="order-inputs-rightside">
+							<textarea type="input" placeholder="Комментарий к заказу" onkeyup="checkLetter(this.value)"
+								id="input_letter" class="letter-input"></textarea>
+							<span id="error_input_letter">Почта должна содержать знак '@'</span>
+						</div>
+					</div>
+					<div class="order-button-wrap">
+						<input type="button" class="order-button" onclick="agreeForm()" value="Отправить"/> 
+						<span id="error_input_submit">Не все поля заполнены, либо заполнены неверно!</span>
+					</div>
+				</div>
+			</form>
+			<a name="order"></a>
+
+
+			<div class="medialine">
+				<div class="leftline"></div>
+				<div class="media-icons">
+					<a href="#medialine">
+						<i class="fab fa-facebook-square"></i>
+					</a>
+					<a href="#medialine">
+						<i class="fab fa-instagram-square"></i>
+					</a>
+					<a href="#medialine">
+						<i class="fab fa-vk"></i>
+					</a>
+					<a href="#medialine">
+						<i class="fab fa-youtube-square"></i>
+					</a>
+					<a href="#medialine">
+						<i class="fab fa-twitter-square"></i>
+					</a>
+				</div>
+				<div class="rightline"></div>
+			</div>
+
+
+
+			<div class="footer" id="footer">
+				<div class="footer-links-wrap">
+					<div class="footer-links">
+						<p>Информация</p>
+						<ul>
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">О продукте</a></li>
+							<li><a href="#">Лицензия</a></li>
+						</ul>
+					</div>
+					<div class="footer-links">
+						<p>Другое</p>
+						<ul>
+							<li><a href="#">Правила</a></li>
+							<li><a href="#">Политика</a></li>
+						</ul>
+					</div>
+					<div class="footer-links">
+						<p>Контакты</p>
+						<ul>
+							<li><a href="tel:">+7 902 253 12 54</a></li>
+							<li><a href="#">г. Калининград <br>
+									ул. Гоголя д. 45 </a></li>
+							<li><a href="mailto:">noerdenoff@gmail.com</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-line"></div>
+				<div class="copyright">
+					<img src="images/copyright.png">
+					2021 Лицензия. Все права защищены
+				</div>
+				<a class="get-up-button" id="get-up-button" href="#header">
+					<img src="images/pointer.png">
+				</a>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div id="popup" class="popup">
+		<div class="popup-body">
+			<div class="popup-content">
+				<a href="#" class="popup-close">X</a>
+				<div class="popup-title">Войти</div>
+				<p>Логин</p>
+				<input type="input" placeholder="Ваш логин">
+				<p>Пароль</p>
+				<input type="input" placeholder="Ваш пароль"><br>
+				<a href="#" class="popup-login">Войти</a>
+				<p class="havenot-account">Нет аккаунта?</p>
+				<a href="#" class="popup-register">Зарегистрироваться</a>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/script.js"></script>
+	<script src="js/timer.js"></script>
+	<script src="js/likes.js"></script>
+	<script src="js/readmore.js"></script>
+	<script src="js/burger.js"></script>
+	<script src="js/slider.js"></script>
+	<script src="js/validation.js"></script>
+	<script src="js/popup.js"></script>
+</body>
+
+</html>

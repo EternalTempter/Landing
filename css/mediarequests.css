@@ -1,0 +1,670 @@
+@media screen and (max-width: 1600px) {
+	.characteristics-header, .statistic-header, .feedbacks-header, .order-header{
+		font-size: 32px;
+	}
+
+	.main-watches img{
+		max-width: 746px;
+		max-height: 746px;
+	}
+
+	.get-down-button .get-up-button{
+		width: 60px;
+		height: 60px;
+	}
+	.product{
+		width: 35%;
+	}
+	.main-watches{
+		width:90% ;
+		height: 90%;
+	}
+	.offer h1{
+		font-size:38px ;
+	}
+	.offer-label{
+		font-size:22px;
+	}
+	.offer a{
+		height: 80px;
+		width:270px ;
+	}
+
+	.image-holder{
+		width: 310px;
+		height:310px;
+	}
+	.characteristics{
+		padding-right: 5%;
+	    padding-left: 5%;
+	}
+	.characteristic-image-1{
+		width: 306px;
+		height: 260px;
+		margin-top: 24px;
+		margin-left:6px;
+	}
+	.characteristic-image-2{
+		width: 306px;
+		height: 300px;
+		margin-top: 5px;
+		margin-left: 3px
+	}
+	.characteristic-image-3{
+		width: 306px;
+		height: 295px;
+		margin-top: 3px;
+	}
+	.characteristic h3{
+		font-size: 28px;
+	}
+	.characteristic p{
+		font-size: 20px;
+	}
+
+	.statistic-image img{
+		width: 90%;
+		height: 90%;
+	}
+	.price{
+		font-size:80px;
+	}
+	.description{
+		font-size: 22px;
+	}
+	.left-infographic p, .right-infographic p{
+		font-size: 28px;
+	}
+	.left-infographic img, .right-infographic img{
+		width: 75%;
+		height: 75%;
+	}
+
+	.upper-feedbacks, .downer-feedbacks{
+		align-self: center;
+	}
+	.person-icon-holder{
+		width: 85px;
+		height: 85px;
+	}
+	.person-icon-holder img{
+		width: 85px;
+		height:85px;
+		margin-top: -7px;
+	}
+	.feedback{
+		width: 290px;
+		height: 130px;
+		font-size:20px ;
+	}
+	.feedback a{
+		font-size:20px;
+	} 
+	.feedback-rightside{
+		font-size:24px;
+		margin-left:12px;
+	}
+
+	.footer-links-wrap{
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	.characteristics-header, .statistic-header, .feedbacks-header, .order-header{
+		font-size: 28px;
+		margin-left: 60px;
+	}
+	.product{
+		width: 40%;
+	}
+	.main-watches{
+		width:75% ;
+		height: 75%;
+		margin-left:30px;
+		margin-right:30px;
+	}
+	.offer h1{
+		font-size:28px ;
+	}
+	.offer-label{
+		font-size:20px;
+	}
+	.unique-share{
+		font-size:18px;
+	}
+	.offer a{
+		height: 65px;
+		width:220px ;
+		font-size:22px ;
+	}
+	.timer{
+		font-size:40px;
+		width: 310px;
+	}
+	.timer-elements{
+		width: 280px;
+		font-size:12px;
+	}
+	.timer-elements p{
+		font-size:12px;
+	}
+
+	.image-holder{
+		width: 250px;
+		height:250px;
+	}
+	.characteristics{
+		padding-right: 5%;
+	    padding-left: 5%;
+	}
+	.characteristic-image-1{
+		width: 246px;
+		height: 200px;
+	}
+	.characteristic-image-2{
+		width: 246px;
+		height: 240px;
+	}
+	.characteristic-image-3{
+		width: 246px;
+		height: 235px;
+	}
+	.characteristic h3{
+		font-size: 24px;
+	}
+	.characteristic p{
+		font-size: 18px;
+	}
+
+	.statistic-image img{
+		width: 85%;
+		height: 85%;
+	}
+	.statistic-image {
+		width:55%;
+	}
+
+	.price{
+		font-size:60px;
+	}
+	.description{
+		font-size: 18px;
+	}
+	.feedback a{
+		font-size:18px;
+	}
+
+	.footer-links p{
+		font-size:20px;
+	}
+	.footer-links a{
+		font-size:16px;
+	}
+}
+@media screen and (max-width: 1199px) {
+	.logo{
+		width: 190px;
+	}
+	.menu a, .tel a{
+		font-size:12px;
+		margin-right: 8px;
+	}
+	.tel img{
+		width:25px;
+		height:25px;
+	}
+	.characteristics-header, .statistic-header, .feedbacks-header, .order-header{
+		font-size: 22px;
+		margin-left: 20px;
+	}
+	.get-down-button{
+		width: 45px;
+		height: 45px;
+	}
+	.get-down-button img{
+		width: 45px;
+		height: 45px;
+		margin-left: 1px;
+		margin-top: 1px;
+	}
+	.offer{
+		margin-left:45px;
+	} 
+	.product{
+		margin-left:0px;
+	}
+	.main-watches{
+		margin-left:15px;
+		margin-right: 15px;
+	}
+	.left-slider-arrow, .right-slider-arrow{
+		width: 30px;
+		height: 35px;
+	}
+	.left-slider-arrow{
+		margin-left: 0px;
+	}
+	.right-slider-arrow{
+		padding:0;
+	}
+	.offer h1{
+		font-size:24px ;
+	}
+	.offer-label{
+		font-size:16px;
+	}
+	.unique-share{
+		font-size:14px;
+	}
+	.offer a{
+		height: 45px;
+		width:180px ;
+		font-size:16px ;
+	}
+	.timer{
+		font-size:26px;
+		width: 250px;
+	}
+	.timer-elements{
+		width: 205px;
+	}
+	.timer-elements p{
+		font-size:8px;
+	}
+
+	.image-holder{
+		width: 200px;
+		height:200px;
+	}
+	.characteristics{
+		padding-right: 2%;
+	    padding-left: 2%;
+	}
+	.characteristic-image-1{
+		width: 196px;
+		height: 150px;
+	}
+	.characteristic-image-2{
+		width: 196px;
+		height: 190px;
+	}
+	.characteristic-image-3{
+		width: 196px;
+		height: 185px;
+	}
+	.characteristic h3{
+		font-size: 20px;
+	}
+	.characteristic p{
+		font-size: 14px;
+	}
+
+	.statistic-image img{
+		width: 85%;
+		height: 85%;
+	}
+	.statistic-image {
+		width:55%;
+	}
+	.price{
+		font-size:45px;
+	}
+	.description{
+		font-size: 16px;
+	}
+	.mini-line{
+		width: 150px;	
+	}
+	.left-infographic p, .right-infographic p{
+		font-size: 20px;
+	}
+	.left-infographic img, .right-infographic img{
+		width: 60%;
+		height: 60%;
+	}
+	.infographic-line{
+		width: 150px;
+	}
+	.statistic-secondary-order-button{
+		margin-bottom:50px ;
+	}
+
+	.person-icon-holder{
+		width: 65px;
+		height: 65px;
+	}
+	.person-icon-holder img{
+		width: 65px;
+		height:65px;
+		margin-top: -6px;
+	}
+	.feedback{
+		width: 230px;
+		height: 90px;
+		font-size:17px ;
+	} 
+	.feedback-rightside{
+		font-size:16px;
+		margin-left:8px;
+	}
+	.feedback-wrap{
+		margin-left:50px;
+	}
+	.feedback-upper img{
+		width: 30px;
+		height:30px;
+	}
+	.likes{
+		font-size: 14px;
+	}
+	.feedback-date{
+		font-size: 14px;
+		margin-top: 6px;
+	}
+	.feedback a{
+		font-size:14px;
+	}
+
+	.line{
+		height: 4px;
+	}
+
+	.order-inputs-leftside input{
+		width: 280px;
+		height:45px;
+	}
+	.order-inputs-rightside textarea{
+		width: 300px;
+		height: 200px;
+	}
+	.order-button{
+		width: 280px;
+		height:45px;		
+		margin-left: 84px;
+		margin-top: -15px;
+		font-size:18px;
+	}
+	.medialine img{
+		width: 35px;
+		height: 35px;
+		margin:15px;
+	}
+	.leftline, .rightline{
+		border: 2px solid #0EAD69;
+	}
+
+	.get-up-button{
+		width: 45px;
+		height: 45px;
+	}
+	.get-up-button img{
+		width: 45px;
+		height: 45px;
+		margin-left: 1px;
+		margin-top: 1px;
+	}
+	.copyright img{
+		width:13px;
+		height: 13px;
+	}
+	.copyright{
+		font-size: 14px;
+	}
+	.secondary-order-button{
+		width: 180px;
+		height: 40px;
+		font-size: 20px;
+	}
+	.feedbacks-secondary-order-button{
+		font-size:14px ;
+	}
+}
+@media screen and (max-width: 767px) {
+	.menu{
+		display: none;
+	}
+	.main-watches img{
+		min-width: 300px;
+		min-height: 300px;
+	}
+	.logo{
+		width: 150px;
+	}
+	.tel a, .userButton{
+		display: none;
+	}
+	.nav{
+		padding-left: 8px;
+		padding-right:8px;
+	}
+	.burger{
+		display: block;
+	}
+	.burger-menu a{
+		display: block;
+	
+	}
+	.burger-menu a{
+		text-transform: capitalize;
+		font-size: 16px;
+		margin-left: 15px;
+		color:#FBFFFE;	
+	}
+	.burger-menu {
+		display: none;
+		list-style-type: none;
+		position: absolute;
+		right: 10px;
+		top: 0px;
+	}
+	.burger-menu li{
+		display: block;
+		height: 40px;
+		width: 200px;
+		background:#777777;
+		display: flex;
+		align-items:center;
+	}
+	.burger-header{
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 20px;
+		font-family: "Exo 2";
+		letter-spacing: 2px;
+		margin-left: 60px;
+	}
+	.product{
+		display: none;
+	}
+	.offer{
+		display: flex;
+		flex-flow: column;
+		align-items: center;
+	}
+	.hidden-watches{
+		width:60%;
+		height: 50%;
+	}
+	.hidden-slider{
+		display: block;
+		display: flex;
+		align-items: center;
+		padding-left:20%;
+	}
+	.offer h1{
+		font-size:23px ;
+	}
+	.offer-label{
+		font-size:16px;
+	}
+	.unique-share{
+		font-size:18px;
+	}
+	.offer a{
+		height: 50px;
+		width:190px ;
+		font-size:18px ;
+	}
+	.offer{
+		margin-left: 0;
+	}
+	.unique-share{
+		font-size: 14px;
+	}
+
+	.characteristics{
+		flex-flow:column;
+		padding-top: 25px;
+		padding-bottom: 20px;
+	}
+	.characteristic{
+		margin-top: 15px;
+	}
+	.characteristics-header{
+		display: flex;
+		justify-content: center;
+		margin:0;
+	}
+	.characteristic-image-1{
+		width: 246px;
+		height: 200px;
+	}
+	.characteristic-image-2{
+		width: 246px;
+		height: 240px;
+	}
+	.characteristic-image-3{
+		width: 246px;
+		height: 235px;
+	}
+	.image-holder{
+		width: 250px;
+		height:250px;
+	}
+
+	.statistic-header{
+		margin:0 auto;
+		margin-top:20px;
+		margin-bottom:20px;
+	}
+	.statistic-wrap{
+		flex-flow: column;
+	}
+	.left-statistic, .right-statistic, .statistic-image{
+		align-self: center;
+	}
+	.statistic-image{
+		width: 90%;
+		height:90%;
+	}
+	.left-infographic p, .right-infographic p{
+		font-size: 20px;
+	}
+	.left-infographic img, .right-infographic img{
+		width: 40%;
+		height: 40%;
+	}
+	.left-statistic{
+		margin-top:55px;
+	}
+	.right-infographic{
+		margin-top: 35px;
+	}
+
+	.upper-feedbacks, .downer-feedbacks{
+		flex-flow: column;
+	}
+	.downer-feedbacks{
+		margin-top: 0;
+	}
+	.feedback-wrap{
+		margin-top: 40px;
+	}
+
+	.person-icon-holder{
+		width: 50px;
+		height: 50px;
+	}
+	.person-icon-holder img{
+		width: 50px;
+		height:50px;
+		margin-top: -6px;
+	}
+	.feedback{
+		width: 200px;
+		height:80px;
+		font-size:12px ;
+	} 
+	.feedback a{
+		font-size:12px;
+	}
+	.feedback-rightside{
+		font-size:16px;
+		margin-left:6px;
+	}
+	.feedback-wrap{
+		justify-content: center;
+	}
+	.feedback-upper img{
+		width: 25px;
+		height:25px;
+	}
+
+	.order-inputs{
+		flex-flow: column;
+		align-items: center;
+	}
+	.order-inputs-leftside{
+		margin-right: 0;
+	}
+	.order-inputs-leftside input{
+		width: 240px;
+		height:40px;
+		margin-top:15px;
+	}
+	.order-inputs-rightside textarea{
+		width: 250px;
+		height: 150px;
+		margin-top:25px;
+	}
+	.order-button{
+		width: 230px;
+		height:40px;		
+		font-size:16px;
+		margin:0 auto;
+	}
+	.order-button-wrap{
+		width:300px;
+		display: flex;
+		justify-content: center;
+	}
+
+	.fa-facebook-square, .fa-instagram-square, .fa-vk, .fa-youtube-square, .fa-twitter-square {
+		font-size: 26px;
+		margin:15px;
+	}
+	.footer-links p{
+		font-size: 14px;
+	}
+	.footer-links a{
+		font-size: 12px;
+	}
+	.footer-links-wrap{
+		padding-top: 10px;
+		width: 85%;
+	}
+	.footer-line{
+		width: 55%;
+	}
+	.copyright{
+		font-size: 10px;
+	}
+	.popup-content input{
+		width :260px ;
+		height:30px ;
+	}
+	.popup-content{
+		padding:35px 30px;
+	}	
+}

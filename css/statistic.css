@@ -1,0 +1,72 @@
+.statistic{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+.statistic-header{
+	margin-right:auto;
+	margin-left: 100px;
+	margin-bottom: 0px;
+	font-size: 38px;
+	font-family:"Nunito Sans";
+	color:#0EAD69;
+}
+.left-statistic, .right-statistic{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	margin-bottom: 15px;
+}
+.left-statistic-wrap, .right-statistic-wrap{
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+}
+.left-infographic, .right-infographic{
+	display: flex;
+	flex-flow: column;
+	align-items:center;
+}
+.left-infographic p, .right-infographic p{
+	font-size: 32px;
+	font-family:"Nunito Sans";
+	font-weight:bold;
+	color:#FBFFFE ;
+	margin-bottom:10px;
+	transition: 0,4 ease;
+} 
+.infographic-line{
+	width: 200px;
+	height: 4px;
+	background:#0EAD69;
+	margin-bottom: 15px;
+}
+.statistic-wrap{
+	margin:0 auto;
+	display: flex;
+	justify-content: center;
+}
+.statistic-image{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.price{
+	margin-bottom:10px;
+	margin-top: 10px;
+	font-family:"Nunito Sans";
+	font-size: 90px;
+	color: #FBFFFE;
+	text-align:center;
+} 
+.mini-line{
+	background:#0EAD69;
+	width: 200px;
+	height:4px;
+}
+.description{
+	font-family:"Exo 2";
+	font-size: 24px;
+	color: #FBFFFE;
+	text-align:center;
+}
